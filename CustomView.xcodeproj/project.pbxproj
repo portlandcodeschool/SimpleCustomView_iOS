@@ -14,6 +14,8 @@
 		84ECC4E31A3FECF600375A10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ECC4E21A3FECF600375A10 /* Images.xcassets */; };
 		84ECC4E61A3FECF600375A10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ECC4E41A3FECF600375A10 /* LaunchScreen.xib */; };
 		84ECC4F21A3FECF600375A10 /* CustomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECC4F11A3FECF600375A10 /* CustomViewTests.m */; };
+		84ECC4FD1A3FED5000375A10 /* LuigisCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECC4FC1A3FED5000375A10 /* LuigisCustomView.m */; };
+		84ECC4FF1A3FF10A00375A10 /* Luigi_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ECC4FE1A3FF10A00375A10 /* Luigi_Image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		84ECC4EB1A3FECF600375A10 /* CustomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ECC4F01A3FECF600375A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84ECC4F11A3FECF600375A10 /* CustomViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewTests.m; sourceTree = "<group>"; };
+		84ECC4FB1A3FED5000375A10 /* LuigisCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuigisCustomView.h; sourceTree = "<group>"; };
+		84ECC4FC1A3FED5000375A10 /* LuigisCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuigisCustomView.m; sourceTree = "<group>"; };
+		84ECC4FE1A3FF10A00375A10 /* Luigi_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Luigi_Image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		84ECC4D41A3FECF600375A10 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				84ECC4FE1A3FF10A00375A10 /* Luigi_Image.png */,
 				84ECC4D91A3FECF600375A10 /* AppDelegate.h */,
 				84ECC4DA1A3FECF600375A10 /* AppDelegate.m */,
 				84ECC4DC1A3FECF600375A10 /* ViewController.h */,
@@ -89,6 +95,8 @@
 				84ECC4E21A3FECF600375A10 /* Images.xcassets */,
 				84ECC4E41A3FECF600375A10 /* LaunchScreen.xib */,
 				84ECC4D51A3FECF600375A10 /* Supporting Files */,
+				84ECC4FB1A3FED5000375A10 /* LuigisCustomView.h */,
+				84ECC4FC1A3FED5000375A10 /* LuigisCustomView.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -201,6 +209,7 @@
 			files = (
 				84ECC4E11A3FECF600375A10 /* Main.storyboard in Resources */,
 				84ECC4E61A3FECF600375A10 /* LaunchScreen.xib in Resources */,
+				84ECC4FF1A3FF10A00375A10 /* Luigi_Image.png in Resources */,
 				84ECC4E31A3FECF600375A10 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ECC4FD1A3FED5000375A10 /* LuigisCustomView.m in Sources */,
 				84ECC4DE1A3FECF600375A10 /* ViewController.m in Sources */,
 				84ECC4DB1A3FECF600375A10 /* AppDelegate.m in Sources */,
 				84ECC4D81A3FECF600375A10 /* main.m in Sources */,
