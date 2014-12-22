@@ -36,8 +36,8 @@
     
     //Adding second version of same type of object
     
-    //Add our custom view using our initWithFrame option
-    LuigisCustomView *luigisViewWithFrame = [[LuigisCustomView alloc] initWithFrame:CGRectMake(0, 0, 80, 80)];
+    //Add our custom view using our initWithFrame option. Notice that the x and y origin of our LuigisCustomFrame is setting its origin.
+    LuigisCustomView *luigisViewWithFrame = [[LuigisCustomView alloc] initWithFrame:CGRectMake(100, 300, 80, 80)];
 
     
     //Pass in our image
@@ -45,9 +45,7 @@
     
     //Set our display text
     luigisViewWithFrame.bottomLabel.text = @"Luigi";
-    
-    //Since the first one is in the upper left have corner, lets display this on in the center of our screen.
-    luigisViewWithFrame.center = self.view.center;
+
     
     //Add this view as a subview to our viewcontrollers view
     [self.view addSubview:luigisViewWithFrame];

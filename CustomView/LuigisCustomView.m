@@ -31,8 +31,8 @@
         //Set the background color of out UIIMageview to white
         self.centerImage.backgroundColor = [UIColor whiteColor];
         
-        //Center our UIImageview to the views cetner
-        self.centerImage.center = self.center;
+        //Center our UIImageview on our views center by dividing width and height by 2
+        self.centerImage.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
         
         //Alloc and init our UILabel and give it a frame size
         self.bottomLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 130, self.frame.size.width, 30)];
@@ -73,8 +73,8 @@
         //Set the background color of our UIImagview
         self.centerImage.backgroundColor = [UIColor whiteColor];
        
-        //Center our UIImageview on our views center
-        self.centerImage.center = self.center;
+        //Center our UIImageview on our views center by dividing width and height by 2
+        self.centerImage.center = CGPointMake(frame.size.width/2, frame.size.height/2);
         
         //Alloc and init our UILabel and set its frame size based on our views frame size.
         self.bottomLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, frame.size.height - 20, self.frame.size.width, 20)];
